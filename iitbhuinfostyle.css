@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700');
+
+
+body {
+	margin: 0;
+
+}
+
+header {
+	background-color: black;
+	color: white;
+	height: 65px;
+	padding: 8px 0px 0px 40px;
+}
+
+header h1 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	display: inline;
+	font-weight: 400;
+	font-size: 32px;
+	margin-top:0px;
+	margin-right: 700px;
+	float: left;
+}
+
+#h11:hover {
+	color: orange;
+	
+}
+
+nav ul {
+	display: inline;
+	float: left;
+	padding: 0;
+}
+
+nav ul li  {
+	display: inline-block;
+	color: white;
+	list-style-type: none;
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+    
+}
+
+
+#ul1 {
+	font-family: 'Montserrat', sans-serif;
+
+}
+.divider {
+	height:2px;
+	background-color: red;
+}
+
+.home:hover {
+	color: yellow;
+}
+.college:hover {
+	color: yellow;
+}
+.exam:hover {
+	color: yellow;
+}
+.news:hover {
+	color: yellow;
+}
+
+.divider {
+	height:2px;
+	background-color: red;
+}
+
+#logo {
+	margin-top: : 0px;
+	border: 10px;
+}
+
+#qwert {
+	border: 2px;
+	color: red;
+}
+
+li {
+	display: inline;
+	margin-left: 42px;
+	padding-right: 35px;
+}
+
+.data1 {
+   font-family: 'Dosis', sans-serif;
+   color: #605d5d;
+   font-size: 20px;
+   margin-left: 80px;
+}
+
+.datainfo1 {
+	font-family: 'Philosopher', sans-serif;
+	color: #605d5d;
+   font-size: 18px;
+   margin-left: 80px;
+   margin-bottom: 80px;
+}
+
+.connectdistance {
+    width: 400px;
+    border: 1px ;
+    border-color:#edeff2;
+    border-style: solid;
+    padding: 10px 50px 10px 10px;
+    margin-left: 80px;
+}
+
+.connectdistance {
+  font-family: 'Philosopher', sans-serif;
+  color: #605d5d;
+   font-size: 18px;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 150px; 
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+   
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.circle:hover {
+	animation: shake 0.7s;
+  animation-iteration-count: infinite;
+	
+}
+
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.facility {
+	display: inline;
+	margin-left: 42px;
+    padding-right: 5px;
+}
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+   
+    padding-right: 30px;
+    text-decoration: none;
+	  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    text-decoration: none;
+    width: 80px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    text-decoration: none;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+        border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    text-decoration: none;
+    opacity: 1;
+}
+
+
+#toolleft {
+	margin-left: 80px;
+}
+
+
+
+.rankinfo {
+    width: 400px;
+    border: 1px ;
+    border-color:#edeff2;
+    border-style: solid;
+    padding: 10px 50px 10px 10px;
+    margin-left: 80px;
+}
+
+.rankdata {
+  font-family: 'Philosopher', sans-serif;
+  color: #605d5d;
+   font-size: 18px;
+}
+
+.adminfo {
+  margin-left: 80px;
+  font-family: 'Philosopher', sans-serif;
+  color: #605d5d;
+   font-size: 16px;
+}
+
+.courseinfo {
+  margin-left: 80px;
+  font-family: 'Philosopher', sans-serif;
+  color: #605d5d;
+  text-decoration: none;
+  color: #3c3696;
+   font-size: 16px;
+}
+
+.seatinfo {
+  margin-left: 80px;
+  font-family: 'Philosopher', sans-serif;
+  color: #605d5d;
+  text-decoration: none;
+  color: #3c3696;
+   font-size: 16px;
+}
+.cutoffinfo {
+  margin-left: 80px;
+  font-family: 'Philosopher', sans-serif;
+  color: #605d5d;
+  text-decoration: none;
+  color: #3c3696;
+   font-size: 16px;
+}
+
+.feesimages {
+  margin-left: 80px;
+}
+
+.placementimages{
+  margin-left: 80px;
+}
+
+.website {
+  margin-left: 80px;
+  border-style: solid;
+  border: 1px;
+  padding: 5px 5px 5px 5px;
+ 
+  text-decoration: none;
+  background-color:  #cbd1db;
+  width: 250px;
+
+}
+
+#table {
+  width: 90%;
+  border: 0px;
+  margin: 0px 0px 0px 50px;
+     text-align: left;
+     color: #605d5d;
+     position: 0px 0px 0px 30px;
+}
+
+#lower1 {
+  background-color: white;
+  height: 170px;
+}
+
+.asd {
+  color: #605d5d;
+  text-decoration: none;
+}
+
+#lower2 {
+   width: 90%;
+  border: 1px;
+  margin: 0px 0px 0px 50px;
+}
+
+hr {
+  color: #605d5d;
+}

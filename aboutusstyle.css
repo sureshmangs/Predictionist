@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+body {
+	margin: 0;
+
+}
+
+header {
+	background-color: black;
+	color: white;
+	height: 50px;
+	padding: 8px 0px 6px 40px;
+}
+
+header h1 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	display: inline;
+	font-weight: 400;
+	font-size: 32px;
+	margin-top:0px;
+	margin-right: 700px;
+	float: left;
+}
+
+#h11:hover {
+	color: orange;
+	
+}
+
+nav ul {
+	display: inline;
+	float: left;
+	padding: 0;
+}
+
+nav ul li  {
+	display: inline-block;
+	color: white;
+	list-style-type: none;
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+    
+}
+
+
+#ul1 {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.home:hover {
+	color: yellow;
+}
+.college:hover {
+	color: yellow;
+}
+.exam:hover {
+	color: yellow;
+}
+.news:hover {
+	color: yellow;
+}
+
+
+.divider {
+	height:2px;
+	background-color: red;
+}
+
+.im1 {
+	float: left;
+	position: relative;
+
+	margin-left: 220px;
+}
+
+
+.q1 {
+   font-family: 'Dosis', sans-serif;
+   color: #605d5d;
+   font-size: 22px;
+   margin-left: 80px;
+}
+
+.q2 {
+   font-family: 'Dosis', sans-serif;
+   color: #605d5d;
+   font-size: 16px;
+   margin-left: 80px;
+}
+
+.q3 {
+   font-family: 'Dosis', sans-serif;
+   color: black;
+   font-size: 16px;
+   margin-left: 80px;
+}
+
+.q4 {
+	font-family: 'Dosis', sans-serif;
+   color:#605d5d;
+   font-size: 16px;
+   margin-left: 80px;
+}
+
+
+
+#table {
+	width: 90%;
+	border: 0px;
+	margin: 0px 0px 0px 50px;
+     text-align: left;
+     color: #605d5d;
+     position: 0px 0px 0px 30px;
+}
+
+#lower1 {
+	background-color: white;
+	height: 170px;
+}
+
+.asd {
+	color: #605d5d;
+	text-decoration: none;
+}
+
+#lower2 {
+	 width: 90%;
+	border: 1px;
+	margin: 0px 0px 0px 50px;
+}
+
+hr {
+	color: #605d5d;
+}
+}

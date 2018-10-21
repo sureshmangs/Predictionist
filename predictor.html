@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Predictionist | Official Home Page</title>
+	<link rel="icon" type="image/jpg" href="img/icon.jpg">
+	<link rel="stylesheet" type="text/css" href="predictorstyle.css">
+	<script>
+	function findRank() {
+    var x = document.forms["rankForm"]["marks"].value;
+    {document.getElementById('result').innerHTML = "PREDICTED RANK: <10";}
+    if(x>360 || x<0)
+    document.getElementById('result').innerHTML = "invalid input";
+	else if (x>350) {document.getElementById('result').innerHTML = "PREDICTED RANK: <10";}
+	else if (x>330 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 10-50";}
+	else if (x>310 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 50-200";}
+	else if (x>300 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 200-300";}
+	else if (x>280 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 300-500";}
+	else if (x>270 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 500-800";}
+	else if (x>260 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 800-1500";}
+	else if (x>250 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 1500-2500";}
+	else if (x>240 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 2500-3000";}
+	else if (x>230 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 3000-4000";}
+	else if (x>220 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 4000-6000";}
+	else if (x>210 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 6000-8000";}
+	else if (x>200 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 8000-10000";}
+	else if (x>190 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 10000-12000";}
+	else if (x>180 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 12000-14000";}
+	else if (x>170 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 14000-17000";}
+	else if (x>160 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 17000-20000";}
+	else if (x>150 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 20000-22000";}
+	else if (x>140 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 22000-26000";}
+	else if (x>130 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 26000-30000";}
+	else if (x>120 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 30000-40000";}
+	else if (x>110 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 40000-70000";}
+	else if (x>100 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 70000-100000";}	
+	else if (x>90 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 100000-125000";}
+	else if (x>80 ){document.getElementById('result').innerHTML = "PREDICTED RANK: 125000-150000";}
+	else {document.getElementById('result').innerHTML = "You have not qualified the exam";}
+
+	
+}
+
+</script>
+</head>
+
+<body >
+	<header>
+		<nav>
+
+			<h1 id="h11">Predictionist</h1>
+			<ul id="ul1">
+				<li><a class="home" href="index.html">HOME</a></li>
+				<li><a class="college" href="college.html">COLLEGE</a></li>
+				<li><a class="exam" href="entranceexam.html">EXAM</a></li>
+				<li><a class="news" href="news.html">NEWS</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="divider"></div>
+	<br>
+	<div id="wrap">
+		<form name="rankForm" >
+			<fieldset class="as">
+			    <legend>Predict your rank</legend><br><br>
+			    <label >Your JEE Mains marks</label><br><br>
+				<input class="box" type="text" name="marks">
+                 <br><br><br>
+				<input class="button" type="button" onclick="findRank()" value="Submit" height="40" width="100">				</form>
+				</fieldset>
+				
+				</div>
+				<br>	<br>	<br>	<br>	<br>
+				
+				<div id="result"></div>
+	
+	
+
+
+</body>
+</html>

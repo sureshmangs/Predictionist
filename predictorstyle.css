@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+
+body {
+	margin: 0;
+	background-image: url('img/galaxy.gif');
+	background-repeat: repeat;
+}
+
+header {
+	background-color: black;
+	color: white;
+	height: 50px;
+	padding: 8px 0px 6px 40px;
+}
+
+header h1 {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	display: inline;
+	font-weight: 400;
+	font-size: 32px;
+	margin-top:0px;
+	margin-right: 700px;
+	float: left;
+}
+
+#h11:hover {
+	color: orange;
+	
+}
+
+nav ul {
+	display: inline;
+	float: left;
+	padding: 0;
+}
+
+nav ul li  {
+	display: inline-block;
+	color: white;
+	list-style-type: none;
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+    
+}
+
+
+#ul1 {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.home:hover {
+	color: yellow;
+}
+.college:hover {
+	color: yellow;
+}
+.exam:hover {
+	color: yellow;
+}
+.news:hover {
+	color: yellow;
+}
+
+.fwimage {
+	background-image: url(img/student.jpg);
+	height:50em;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: 5px;
+    border-color: white;
+    color: white;
+    padding: 15px 152px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.button:hover {
+	  background-color: red;
+	  transition: all 2s;
+}
+.box {
+    background-color:#bec3ce ;
+    border: 5px;
+    border-color: black;
+    color: white;
+    padding: 15px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.divider {
+	height:2px;
+	background-color: red;
+}
+#wrap{
+	width:400px;
+	font-family: 'Oswald', sans-serif;
+	margin:0 auto;
+	text-align:left;
+	margin-top:8px;
+	padding:5px;
+	background-color: #000611;
+	color:white;
+    font-family:AvenirLTStd, Arial, Helvetica, sans-serif;
+	font-size:25px;    
+    line-height:16px;
+}
+
+#result {
+	color: white;
+	 font-family: 'Do Hyeon', sans-serif;
+	font-size: 50px;
+	margin-left:300px; 
+}
