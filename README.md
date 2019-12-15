@@ -1,3 +1,5 @@
 # Predictionist
 Website for college reviews
-Visit the website <a href="https://predictionist-d0e56.firebaseapp.com" target="_blank">Predictionist</a>
+Visit the website <a href="https://predictionist.netlify.com/" target="_blank">Predictionist</a>
+
+Technologies used: HTML, CSS, JavaScript
